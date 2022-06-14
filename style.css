@@ -150,6 +150,7 @@ h2 {
 .dish {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -168,10 +169,14 @@ h3 {
     margin-bottom: 1rem;
 }
 
-.dish p{
+.infoDish{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-family: 'Nunito', sans-serif;
     text-align: start;
     width: 15rem;
+    height: 1rem;
     margin-left: 4rem;
 }
 

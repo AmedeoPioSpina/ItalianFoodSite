@@ -6,14 +6,16 @@ showMoreBtn.addEventListener("click", () => {
     if(clickTurn == 0){
         clickTurn += 1;
         dish.forEach((dish) =>{
-            const dishText = dish.querySelector("p");
-            dishText.innerHTML= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore laboriosam voluptas, harum voluptates perspiciatis praesentium cupiditate doloremque dignissimos, sapiente ea voluptatem. Doloribus delectus praesentium facilis dolorum doloremque voluptate sint quod.";
+            const dishText = dish.querySelector(".infoDish");
+            dishText.style.height = "9rem";
+            dishText.style.whiteSpace = "normal";
         });
     }else{
         clickTurn -= 1;
         dish.forEach((dish) =>{
-            const dishText = dish.querySelector("p");
-            dishText.innerHTML= "Lorem ipsum dolor, sit amet consectetur adipisicing...";
+            const dishText = dish.querySelector(".infoDish");
+            dishText.style.height = "1rem";
+            dishText.style.whiteSpace = "nowrap";
         });
     };
 });
