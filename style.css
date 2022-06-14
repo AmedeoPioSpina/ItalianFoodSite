@@ -1,0 +1,355 @@
+header {
+    background-image: url("https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 47rem;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 4rem;
+    
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.searchBar {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.searchBar input{
+    height: 2rem;
+    border: 2px solid black;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.searchBar input:focus {
+    border: 2px solid black;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+
+.searchBar input[type="text"] {
+    font-family: 'Nunito', sans-serif;
+    padding-left: 1rem;
+}
+
+.searchBar button {
+    background-color: white;
+    border: 2px solid black;
+    width: 2rem;
+    border-left: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.searchBar img {
+    width: 0.7rem;
+}
+
+.infoHeader {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: 3rem;
+}
+
+.logo {
+    width: 8rem;
+    margin-left: 3rem;
+}
+
+h1{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 8rem;
+    margin-bottom: 3rem;
+}
+
+.titleReadMore p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.readMoreBtn {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.infoHeader p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-style: oblique;
+    margin-left: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcaseDishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Satisfy', cursive;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.showcaseDishes p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 34rem;
+    margin-bottom: 4rem;
+}
+
+.dishes {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.imgDish {
+    width: 20rem;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.dish p{
+    font-family: 'Nunito', sans-serif;
+    text-align: start;
+    width: 15rem;
+    margin-left: 4rem;
+}
+
+#showMoreBtn {
+    align-self: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    border-radius: 15rem;
+    margin-bottom: 3rem;
+}
+
+.historicalInfo {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    flex-direction: column;
+}
+
+.historicalInfo h2 {
+    color: white;
+    align-self: center;
+}
+
+.history {
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem;
+}
+
+.history p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+}
+
+.owners{
+    display: flex;
+    flex-direction: column;
+}
+
+.ownersInfo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.owner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.owner h2{
+    align-self: center;
+    font-size: 3rem;
+}
+ .owner p {
+    width: 20rem;
+    font-family: 'Nunito', sans-serif;
+ }
+
+.citation {
+    display: flex;
+    flex-direction: column;
+}
+
+.citation p {
+    align-self: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    width: 35rem;
+    margin-bottom: 2rem;
+}
+
+.citationAuthor {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 6rem;
+}
+
+.emailNotification {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailNotification h2 {
+    color: white;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.emailNotification p {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 45rem;
+    margin-bottom: 4rem;
+}
+
+.registerEmailBar {
+    display: flex;
+    align-content: center;
+    margin-bottom: 8rem;
+}
+
+.registerEmailBar input{
+    height: 2.5rem;
+    width: 20rem;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.registerEmailBar input:focus {
+    outline: none;
+}
+
+.registerEmailBar input[type="text"] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+.registerEmailBar button {
+    background-color: gray;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 8rem;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+footer h3 {
+    text-align: start;
+    font-size: 1rem;
+    font-weight: unset;
+    margin-left: 0;
+}
+
+.socials  {
+    margin-bottom: 10rem;
+}
+
+.socials p {
+    width: 20rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.socialsIcon img {
+    width: 1.5rem;
+}
+
+footer li a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+}
+
+footer li {
+    margin-bottom: 0.3rem;
+}
